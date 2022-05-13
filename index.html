@@ -474,21 +474,26 @@
         <form class="modal-form">
           <div class="form-field">
             <label class="input-label" for="user-name">Имя</label>
-            <input
-              type="text"
-              placeholder="имя"
-              name="user-name"
-              class="modal-input"
-              required
-              minlength="2"
-              id="user-name"
-            />
+            <div class="input-wrap">
+              <input
+                type="text"
+                placeholder=""
+                name="user-name"
+                class="modal-input"
+                required
+                minlength="2"
+                id="user-name"
+              />
+              <svg class="input-icon">
+                <use href="./images/icons.svg#person" width="18" height="18"></use>
+              </svg>
+            </div>
           </div>
           <div class="form-field">
             <label class="input-label" for="user-tel">Телефон</label>
             <input
               type="tel"
-              placeholder="тел"
+              placeholder=""
               name="user-tel"
               class="modal-input"
               required
@@ -499,7 +504,7 @@
             <label class="input-label" for="user-email">Почта</label>
             <input
               type="email"
-              placeholder="почта"
+              placeholder=""
               name="user-email"
               class="modal-input"
               id="user-email"
