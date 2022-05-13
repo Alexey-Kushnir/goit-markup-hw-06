@@ -451,6 +451,18 @@
             </li>
           </ul>
         </div>
+        <form action="" class="footer-sign">
+          <label class="footer-sign-label" for="user-email-footer"
+            >Подпишитесь на рассылку
+            <input
+              class="footer-sign-input"
+              type="email"
+              name="user-email"
+              placeholder="E-mail"
+              id="user-email-footer"
+          /></label>
+          <button type="submit" class="footer-sign-button">Подписаться</button>
+        </form>
       </div>
     </footer>
     <div class="backdrop is-hidden" data-modal>
@@ -458,6 +470,57 @@
         <button type="button" class="modal-close" data-modal-close>
           <img class="modal-close-img" src="./images/close.png" alt="X" />
         </button>
+        <p class="modal-title">Оставьте свои данные, мы вам перезвоним</p>
+        <form class="modal-form">
+          <div class="form-field">
+            <label class="input-label" for="user-name">Имя</label>
+            <input
+              type="text"
+              placeholder="имя"
+              name="user-name"
+              class="modal-input"
+              required
+              minlength="2"
+              id="user-name"
+            />
+          </div>
+          <div class="form-field">
+            <label class="input-label" for="user-tel">Телефон</label>
+            <input
+              type="tel"
+              placeholder="тел"
+              name="user-tel"
+              class="modal-input"
+              required
+              id="user-tel"
+            />
+          </div>
+          <div class="form-field">
+            <label class="input-label" for="user-email">Почта</label>
+            <input
+              type="email"
+              placeholder="почта"
+              name="user-email"
+              class="modal-input"
+              id="user-email"
+            />
+          </div>
+          <div class="form-field">
+            <label class="input-label" for="user-text">Комментарий</label>
+            <textarea
+              name="user-text"
+              id="user-text"
+              class="modal-text"
+              placeholder="Введите текст"
+            ></textarea>
+            <input type="checkbox" id="" name="" value="" />
+            <label for=""
+              >Соглашаюсь с рассылкой и принимаю
+              <a href="">Условия договора</a>
+            </label>
+          </div>
+          <button type="submit" class="form-submit-button">Отправить</button>
+        </form>
       </div>
     </div>
     <script src="./js/modal.js"></script>
