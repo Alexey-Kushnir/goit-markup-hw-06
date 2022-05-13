@@ -607,8 +607,8 @@ body {
   width: 24px;
   height: 24px;
   margin-left: 10px;
-  /* background-image: url('../images/4icons/send.svg'); */
-  background-image: url('../images/icons.svg#send');
+  background-image: url('../images/4icons/send.svg');
+  /* background-image: url('../images/icons.svg#send'); */
   color: #212121;
   background-size: contain;
 }
