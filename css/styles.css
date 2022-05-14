@@ -580,6 +580,11 @@ body {
 }
 
 .footer-sign-input {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
   margin-top: 20px;
   width: 358px;
   height: 50px;
@@ -588,10 +593,16 @@ body {
   border-radius: 4px;
   padding: 0;
   background-color: inherit;
+  padding-left: 16px;
 }
 
 .footer-sign-input::placeholder {
-  padding: 15px 269px 15px 16px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  padding: 15px 269px 15px 0;
 }
 
 .footer-sign-button {
@@ -773,7 +784,7 @@ body {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
-  padding: 40px 40px 0px 40px;
+  padding: 40px;
 }
 
 .backdrop.is-hidden {
@@ -832,6 +843,7 @@ body {
   padding-left: 35px;
   cursor: pointer;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  outline: none;
 }
 
 .modal-check:hover,
@@ -853,6 +865,8 @@ body {
   resize: none;
   padding: 0;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  outline: none;
+  padding: 12px 16px;
 }
 
 .modal-text::placeholder {
@@ -861,7 +875,6 @@ body {
   line-height: 1.17;
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
-  padding: 12px 16px;
 }
 
 .input-label {
